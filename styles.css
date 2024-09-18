@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; /* Adiciona flex-direction para organizar o layout verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente suave como fundo */
+}
+
+.header {
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.header h1 {
+    font-size: 2em;
+    color: rgb(255, 217, 5); /* Cor do texto do título */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6); /* Adiciona sombra ao texto para destacar */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    max-width: 600px; /* Largura máxima para manter o layout adequado */
+    width: 100%;
+}
+
+#quote {
+    font-size: 1.5em; /* Aumentar o tamanho da fonte */
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd; /* Borda leve ao redor da área de frase */
+    border-radius: 16px; /* Cantos arredondados */
+    color: #333; /* Texto em cor escura para melhor contraste */
+    font-weight: bold; /* Texto em negrito */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.08); /* Leve aumento no botão ao passar o mouse */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Adiciona uma borda de foco azul */
+}
