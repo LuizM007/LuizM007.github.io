@@ -6,17 +6,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente suave como fundo */
+    background: linear-gradient(135deg, #dd0000, #10078b); /* Gradiente suave como fundo */
 }
 
 .header {
-    margin-bottom: 20px; /* Espaço abaixo do título */
+    margin-bottom: 45px; /* Espaço abaixo do título */
 }
 
 .header h1 {
     font-size: 2em;
     color: rgb(255, 217, 5); /* Cor do texto do título */
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6); /* Adiciona sombra ao texto para destacar */
+    text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.6); /* Adiciona sombra ao texto para destacar */
     margin: 0;
 }
 
@@ -47,20 +47,20 @@ button {
     font-size: 1.1em;
     border: none;
     border-radius: 8px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffd900;
+    color: #000000;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #d4b815;
     transform: scale(1.08); /* Leve aumento no botão ao passar o mouse */
 }
 
 button:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Adiciona uma borda de foco azul */
+    box-shadow: 0 0 0 3px rgba(255, 208, 0, 0.822); /* Adiciona uma borda de foco azul */
 }
 footer {
     color: #000000;
@@ -71,4 +71,5 @@ footer {
     position: fixed;
     width: calc(100% - 200px);
     bottom: 0;
-    backdrop-filter: blur(10px); }
+    backdrop-filter: blur(10px);
+}
